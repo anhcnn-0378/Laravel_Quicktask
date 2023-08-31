@@ -1,0 +1,21 @@
+{
+  "name": "Laravel-Quicktask",
+  "description": "",
+  "main": "",
+  "authors": [
+    "NGUYEN NGOC ANH 20194476 <nguyen.ngoc.anh-c@sun-asterisk.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/anhcnn-0378/Laravel_Quicktask",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "template-bower-example": "manhtd-1083/template-bower-example"
+  }
+}
