@@ -78,5 +78,16 @@
     "Create new user": "Tạo người dùng mới",
     "User List": "Danh sách người dùng",
     "User list": "Danh sách người dùng",
-    "Delete": "Xóa"
+    "Delete": "Xóa",
+    "Tasks": "Công việc",
+    "First name": "Tên",
+    "Last name": "Họ",
+    "Show": "Xem",
+    "User name": "Tên người dùng",
+    "Task List": "Danh sách công việc",
+    "Task list": "Danh sách công việc",
+    "Create new task": "Tạo công việc mới",
+    "Content": "Nội dung",
+    "Edit task": "Sửa công việc",
+    "Delete task": "Xóa công việc"
 }
