@@ -33,11 +33,11 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth', 'admin'])->group(function () {
     Route::get('/users', [UserController::class, 'index'])->name('users.index');
-    Route::get('/users/edit', [UserController::class, 'edit'])->name('users.edit');
+    Route::get('/users/{user}/edit', [UserController::class, 'edit'])->name('users.edit');
     Route::get('/users/create', [UserController::class, 'create'])->name('users.create');
-    Route::get('/users/{task}', [UserController::class, 'show'])->name('users.show');
-    Route::delete('/users/{task}', [UserController::class, 'delete'])->name('users.delete');
-    Route::put('/users/{task}', [UserController::class, 'update'])->name('users.update');
+    Route::get('/users/{user}', [UserController::class, 'show'])->name('users.show');
+    Route::delete('/users/delete', [UserController::class, 'delete'])->name('users.delete');
+    Route::put('/users/{user}', [UserController::class, 'update'])->name('users.update');
     Route::post('/users', [UserController::class, 'store'])->name('users.store');
 });
 
